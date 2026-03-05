@@ -1,3 +1,4 @@
+import { feture } from "../assets/data";
 import CTASection from "../componnets/landing/CTASection";
 import FetureSection from "../componnets/landing/FetureSection";
 import { FooterSection } from "../componnets/landing/FooterSection";
@@ -11,7 +12,7 @@ const Landing = () => {
       <HeroSection />
 
       {/* {Feture section} */}
-      <FetureSection />
+      <FetureSection fetures={feture} />
 
       {/* {Pricing section} */}
       <PrisingSection />
@@ -23,7 +24,7 @@ const Landing = () => {
       <CTASection />
 
       {/* {Footer section} */}
-      <FooterSection/>
+      <FooterSection />
     </div>
   );
 };
