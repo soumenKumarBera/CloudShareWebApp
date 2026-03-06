@@ -39,3 +39,31 @@ export const feture = [
       description: "Keep track of all your credit purchases and usage.",
     },
   ];
+
+
+  export const priceingSection = [
+
+    {highlighted: 0,
+      name: "Free",
+      description: "Perfect for getting started",
+      fetures: ["5 File uploads", "Basic file sharing", "7-day free retention", "Email support"],
+      cta: "Get Started"  
+      
+
+    },
+
+     {highlighted: 500,
+      name: "Premium",
+       description: "For individuals with larger needs",
+      fetures: ["500 File uploads", "Advance file sharing", "30-day free retention", "Priority email support", "File analytics"],
+      cta: "Go Premium"
+    },
+
+     {highlighted: 2500,
+      name: "Ultimate",
+       description: "For tearns and businesses",
+      fetures: ["5000 File uploads", "Team sharing capabilties", "Unlimited file retention", "24/7 priority support", "Advance analytice", "API access"],
+      cta: "Go Ultimate"
+    }
+
+  ];

@@ -1,4 +1,4 @@
-import { feture } from "../assets/data";
+import { feture, priceingSection } from "../assets/data";
 import CTASection from "../componnets/landing/CTASection";
 import FetureSection from "../componnets/landing/FetureSection";
 import { FooterSection } from "../componnets/landing/FooterSection";
@@ -15,7 +15,7 @@ const Landing = () => {
       <FetureSection fetures={feture} />
 
       {/* {Pricing section} */}
-      <PrisingSection />
+      <PrisingSection pricingPlan ={priceingSection}/>
 
       {/* {Testimoials section} */}
       <TesetimonialSection />
