@@ -1,4 +1,6 @@
 export const FooterSection = ()  =>{
-  return <div>footer section</div>
+  return <div className="bg-gray-800">
+    
+  </div>
 }
 
