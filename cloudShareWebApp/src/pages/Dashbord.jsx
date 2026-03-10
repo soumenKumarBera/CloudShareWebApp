@@ -1,7 +1,14 @@
-const Dashboard = () =>{
+import { UserButton } from "@clerk/react";
 
-  return <div>dashbhord</div>
-
-}
+const Dashboard = () => {
+  return (
+    <>
+      <div>
+        <UserButton />
+      </div>
+      <div>soumen</div>
+    </>
+  );
+};
 
 export default Dashboard;

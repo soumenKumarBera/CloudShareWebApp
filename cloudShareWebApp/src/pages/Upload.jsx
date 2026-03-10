@@ -1,5 +1,3 @@
-const Upload = () => {
-  return <div>Upload</div>
+export  function Upload() {
+  return <div>Upload</div>;
 }
-
-export default Upload;
