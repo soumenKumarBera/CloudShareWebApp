@@ -30,13 +30,13 @@ const Landing = () => {
       <FetureSection fetures={feture} />
 
       {/* {Pricing section} */}
-      <PrisingSection pricingPlan={priceingSection} />
+      <PrisingSection pricingPlan={priceingSection} openSignUp = {openSignUp}/>
 
       {/* {Testimoials section} */}
       <TesetimonialSection testimonials={testimonials} />
 
       {/* {CTA section} */}
-      <CTASection />
+      <CTASection openSignUp = {openSignUp}/>
 
       {/* {Footer section} */}
       <FooterSection />
