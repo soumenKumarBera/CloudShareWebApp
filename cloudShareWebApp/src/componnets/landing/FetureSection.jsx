@@ -26,7 +26,8 @@ const FetureSection = ({ fetures }) => {
       case "FileText":
         return <FiFileText {...icconProps} />;
 
-      case "Clock":
+      case "Clock": 
+      
         return <CiClock1 {...icconProps} />;
 
       default:
